@@ -125,10 +125,11 @@ fun App() {
                 painter = painterResource(Res.drawable.logo),
                 contentDescription = null,
                 modifier = Modifier
-                    .height(118.dp)
+                    .height(125.dp)
                     .padding(bottom = 20.dp)
+                    .padding(top = 20.dp)
                     .fillMaxSize(),
-                contentScale = ContentScale.Crop
+                contentScale = ContentScale.Fit
             )
 
             // Storage Overview Section
